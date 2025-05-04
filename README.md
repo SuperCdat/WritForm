@@ -1,3 +1,3 @@
 # WritForm
 
-WritForm is an WPF software. :)
+WritForm is a WPF software. :)
