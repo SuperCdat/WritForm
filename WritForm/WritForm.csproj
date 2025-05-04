@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>costume2.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1.ico" />
+    <None Remove="costume2.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="costume2.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="costume2.ico" />
+  </ItemGroup>
+
+</Project>
